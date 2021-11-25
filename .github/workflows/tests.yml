@@ -44,7 +44,7 @@ jobs:
           restore-keys: ${{ runner.os }}-go-
 
       - name: Run coverage
-        run: go test -json ./... -coverprofile=coverage.txt -covermode=atomic -coverpkg=./...
+        run: go test -json ./... -coverprofile=coverage.txt -covermode=atomic -coverpkg=./telegram
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v2
