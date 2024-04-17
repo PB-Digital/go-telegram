@@ -1,7 +1,6 @@
 # go-telegram #
 
-[![Test Status](https://github.com/OpenSourcePB/go-telegram/workflows/tests/badge.svg)](https://github.com/OpenSourcePB/go-telegram/actions?query=workflow%3Atests)
-[![Test Coverage](https://codecov.io/gh/OpenSourcePB/go-telegram/branch/master/graph/badge.svg?token=MMlSlIbqOT)](https://codecov.io/gh/OpenSourcePB/go-telegram)
+[![Test Status](https://github.com/PB-Digital/go-telegram/workflows/tests/badge.svg)](https://github.com/PB-Digital/go-telegram/actions?query=workflow%3Atests)
 
 go-telegram is a Go client library for accessing the [Telegram API][].
 
@@ -10,7 +9,7 @@ go-telegram is a Go client library for accessing the [Telegram API][].
 go-telegram is compatible with modern Go releases in module mode, with Go installed:
 
 ```bash
-go get github.com/OpenSourcePB/go-telegram
+go get github.com/PB-Digital/go-telegram
 ```
 
 will resolve and add the package to the current development module, along with its dependencies.
@@ -18,17 +17,17 @@ will resolve and add the package to the current development module, along with i
 Alternatively the same can be achieved if you use import in a package:
 
 ```go
-import "github.com/OpenSourcePB/go-telegram"
+import "github.com/PB-Digital/go-telegram"
 ```
 
 ## Usage ##
 
 ```go
-import "github.com/OpenSourcePB/go-telegram"
+import "github.com/PB-Digital/go-telegram"
 ```
 
 Construct a new Telegram client, then use the various services on the client to
-access different parts of the Telegram API. 
+access different parts of the Telegram API.
 
 For example:
 
@@ -43,12 +42,12 @@ client.SendMessage(telegram.Message{
 ```
 
 For more sample code snippets, head over to the
-[example](https://github.com/OpenSourcePB/go-telegram/tree/master/example) directory.
+[example](https://github.com/PB-Digital/go-telegram/tree/master/example) directory.
 
 ## License ##
 
 This library is licensed under the MIT License. See
-[LICENSE](https://github.com/OpenSourcePB/go-telegram/blob/master/LICENSE) for the full
+[LICENSE](https://github.com/PB-Digital/go-telegram/blob/master/LICENSE) for the full
 license text.
 
 [Telegram API]: https://core.telegram.org/api
